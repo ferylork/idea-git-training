@@ -9,6 +9,7 @@ public class GitService {
         System.out.println("这是一个测试");
         System.out.println("这是第二个测试");
         System.out.println("这是第三个测试");
+        System.out.println("dev");
         return "hello";
     }
 
