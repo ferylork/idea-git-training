@@ -13,4 +13,8 @@ public class GitController {
     public String getTest() {
         return gitService.test();
     }
+
+    @RequestMapping("/v1")
+    public String v1() {
+        return "v1v1v1";
 }
